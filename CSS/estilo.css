@@ -1,0 +1,65 @@
+body{
+    background-color: #808080;/* Colocando o fundo do web site de cinza. */
+    /*background-image: url(../Imagens/mewtwo\ filme\ 1998.jpg);*/
+    /*background-position:;*/
+    /*background-size:*/
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: bold;
+}  
+
+#paginaInicial{
+    border: 2px solid #fff;
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+,
+ul{
+    text-align: right;
+} 
+
+li{
+    list-style: none ;
+    display: inline;
+    border: solid 1px black;
+    padding: 10px;
+    background-color: red;
+    font-weight: bold;
+}
+
+h1{
+    margin-left: 10px;
+    width: 50%;
+    height: 10%;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: -5px;
+}
+
+h4{
+    margin-top: -20px
+}
+
+#capa{
+    width: 100%;
+    height: 50%;
+}
+
+#Sobre{
+    background-color: red;
+    color: black;
+    text-align: center;
+    text-align: justify;
+    font-size: 25px;
+}
+
+#history{
+    background-color: greenyellow;
+    width: 100%;
+    height:25%;
+    text-align: center;
+    margin: -20px;
+}
