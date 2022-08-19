@@ -5,20 +5,23 @@ body{
     /*background-size:*/
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
     font-style: bold;
 }  
 
 #paginaInicial{
     border: 2px solid #fff;
-    background-color: white;
+    background-color:gray;
     color: black;
     text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-style: normal;
 }
-,
+
 ul{
-    text-align: right;
+    text-align: center;
 } 
 
 li{
@@ -26,13 +29,13 @@ li{
     display: inline;
     border: solid 1px black;
     padding: 10px;
-    background-color: red;
+    background-color: gray;
     font-weight: bold;
 }
 
 h1{
-    margin-left: 10px;
-    width: 50%;
+    margin-right: 10px;
+    width: 40%;
     height: 10%;
     padding-top: 0px;
     padding-bottom: 10px;
@@ -49,17 +52,202 @@ h4{
 }
 
 #Sobre{
-    background-color: red;
+    background-color: gray;
     color: black;
     text-align: center;
     text-align: justify;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #history{
-    background-color: greenyellow;
-    width: 100%;
-    height:25%;
-    text-align: center;
-    margin: -20px;
+    background-color: gray;
+    color: black;
+    width: 40%;
+    height:20%;
+    text-align: justify;
+    margin-top: 10;
+    margin-right: 3cm;
 }
+
+#Curiosidades{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    color: black;
+    width: 80%;
+    height: 20px;
+    text-align: justify;
+    margin: 80px;
+}
+  
+
+.banner{
+    width: 25%;
+    height: 100%;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 33% 33% 33% 33%;
+    gap: 1%;
+}
+
+#item1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+#item2{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+
+}
+
+#item3{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+}
+
+#item4{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+
+}
+
+#item5{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+}
+
+#item6{
+    grid-column-start: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+
+}
+
+#item7{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+ 
+}
+
+#item8{
+    grid-column-start: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+
+}
+
+#item9{
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+
+#item10{
+    grid-column-start: 2;
+    grid-row-start: 4;
+    grid-row-end: 4;
+
+}
+
+#item11{
+    grid-column-start: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+  
+}
+
+#item12{
+    grid-column-start: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+#item13{
+    grid-column-start: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+    
+
+#item14{
+    grid-column-start: 1;
+    grid-row-start: 6;
+    grid-row-end: 6;
+}
+   
+
+#item15{
+    grid-column-start: 2;
+    grid-row-start: 5;
+    grid-row-end: 5;
+
+}
+
+#item16{
+    grid-column-start: 2;
+    grid-row-start: 6;
+    grid-row-end: 6;
+   
+}
+
+#item17{
+    grid-column-start: 3;
+    grid-row-start: 5;
+    grid-row-end: 5;
+  
+    
+}
+
+#item18{
+    grid-column-start: 3;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    
+}
+
+#item19{
+    grid-column-start: 2;
+    grid-row-start: 7;
+    grid-row-end: 7;
+    
+}
+
+#item20{
+    grid-column-start: 2;
+    grid-row-start: 8;
+    grid-row-end: 8;
+    
+}
+
+#item1, #item3, #item5, #item7, #item9, #item11, #item13, #item15, #item17, #item19{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    background-color: gray;
+    font-weight: bold;
+    border: 2px dotted black
+} 
+
+#item2, #item4, #item6, #item8, #item10, #item12, #item14, #item16, #item18{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    background-color: gray;
+    font-weight: bold;
+    border: 2px dotted black;
+    height: 100%
+}
+
